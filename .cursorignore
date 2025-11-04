@@ -1,0 +1,88 @@
+# Cursor Ignore File
+# Prevents Cursor from indexing large/binary files that can cause serialization errors
+
+# Dependencies
+node_modules/
+vendor/
+venv/
+.venv/
+env/
+.env/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.app
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# Binary and media files
+*.bin
+*.dat
+*.dump
+*.img
+*.iso
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Cache directories
+.cache/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+*.pyo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Version control
+.git/
+.svn/
+.hg/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
